@@ -7243,6 +7243,11 @@ stream-chain@^2.1.0, stream-chain@^2.2.1:
   resolved "https://registry.yarnpkg.com/stream-chain/-/stream-chain-2.2.1.tgz#e6efdee89eef81481d888181ca175f3abe03f396"
   integrity sha512-LW24AKjJHBrihU8xGLPs/o7OSCNPzBpJ/5JtjMyt8/1WLzcSIRKRRvugeBQjTCFJMn0nFzvN0rd6oCSWguKmxw==
 
+stream-chain@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/stream-chain/-/stream-chain-2.2.5.tgz#b30967e8f14ee033c5b9a19bbe8a2cba90ba0d09"
+  integrity sha512-1TJmBx6aSWqZ4tx7aTpBDXK0/e2hhcNSTV8+CbFJtDjbb+I1mZ8lHit0Grw9GRT+6JbIrrDd8esncgBi8aBXGA==
+
 stream-combiner2@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stream-combiner2/-/stream-combiner2-1.1.1.tgz#fb4d8a1420ea362764e21ad4780397bebcb41cbe"
@@ -7258,12 +7263,19 @@ stream-csv-as-json@^1.0.1:
   dependencies:
     stream-json "^1.3.1"
 
-stream-json@^1.2.1, stream-json@^1.3.1:
+stream-json@^1.3.1:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/stream-json/-/stream-json-1.5.0.tgz#917d63c06514f7383f95cf0fe6a2e7e4a9fa81b3"
   integrity sha512-a2hm5eyDeoXA3oDqNbO/ylDzNEx4C1HyQ47/Ar0s3q3UZJr0L8ZsKBNSbkUyNfPsyG+Efs47nUYkIJqLme0yJg==
   dependencies:
     stream-chain "^2.2.1"
+
+stream-json@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/stream-json/-/stream-json-1.8.0.tgz#53f486b2e3b4496c506131f8d7260ba42def151c"
+  integrity sha512-HZfXngYHUAr1exT4fxlbc1IOce1RYxp2ldeaf97LYCOPSoOqY/1Psp7iGvpb+6JIOgkra9zDYnPX01hGAHzEPw==
+  dependencies:
+    stream-chain "^2.2.5"
 
 stream-meter@^1.0.4:
   version "1.0.4"
