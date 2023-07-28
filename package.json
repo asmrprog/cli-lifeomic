@@ -38,7 +38,7 @@
     "lodash": "^4.17.11",
     "mkdirp": "^0.5.1",
     "moment": "^2.29.1",
-    "open": "^7.0.2",
+    "open": "^7.4.2",
     "prettyoutput": "^1.2.0",
     "queue": "^4.5.1",
     "recursive-readdir": "^2.2.2",
