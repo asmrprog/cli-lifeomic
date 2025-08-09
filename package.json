@@ -30,7 +30,7 @@
     "debug": "^3.2.6",
     "execa": "^4.0.0",
     "get-stdin": "^6.0.0",
-    "inquirer": "^5.2.0",
+    "inquirer": "^8.2.7",
     "jmespath": "^0.15.0",
     "js-yaml": "^3.13.1",
     "jsome": "^2.5.0",
